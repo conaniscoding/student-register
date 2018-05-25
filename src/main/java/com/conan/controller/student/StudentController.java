@@ -15,7 +15,7 @@ public class StudentController {
     @Autowired
     private IStudentInfoService iStudentInfoService;
 
-    @RequestMapping("/index")
+    @RequestMapping("/index1")
     public String index(){
         return "student/student_detail";
     }

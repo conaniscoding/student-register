@@ -14,6 +14,6 @@ public class StudentInfoServiceImpl implements IStudentInfoService {
 
     @Override
     public StudentInfoEntity getStudentByName(String name) {
-        return studentInfoRepositoty.findByUserName(name);
+        return studentInfoRepositoty.findByName(name);
     }
 }
