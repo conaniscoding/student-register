@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+
+    <persistence-unit name="persistenceUnit">
+        <class>com.conan.dao.entity.SysAuthInfoEntity</class>
+        <class>com.conan.dao.entity.SysMenuInfoEntity</class>
+        <class>com.conan.dao.entity.SysRoleInfoEntity</class>
+        <class>com.conan.dao.entity.SysTypeInfoEntity</class>
+        <class>com.conan.dao.entity.SysUserInfoEntity</class>
+        <class>com.conan.dao.entity.SysUserRoleEntity</class>
+        <properties>
+            <property name="toplink.jdbc.url" value="jdbc:mysql://122.114.223.65:3306/student-register"/>
+            <property name="toplink.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+            <property name="hibernate.connection.url" value="jdbc:mysql://122.114.223.65:3306/student-register"/>
+            <property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver"/>
+            <property name="openjpa.ConnectionURL" value="jdbc:mysql://122.114.223.65:3306/student-register"/>
+            <property name="openjpa.ConnectionDriverName" value="com.mysql.jdbc.Driver"/>
+            <property name="eclipselink.jdbc.url" value="jdbc:mysql://122.114.223.65:3306/student-register"/>
+            <property name="eclipselink.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+        </properties>
+    </persistence-unit>
+</persistence>
