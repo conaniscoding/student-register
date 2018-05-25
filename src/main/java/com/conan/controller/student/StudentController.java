@@ -1,6 +1,6 @@
 package com.conan.controller.student;
 
-import com.conan.DAO.entity.StudentInfoEntity;
+import com.conan.dao.entity.StudentInfoEntity;
 import com.conan.service.demo.IStudentInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -27,6 +27,7 @@ public class StudentController {
         if(null == studentInfoEntity){
             return null;
         }else{
+            System.out.print(studentInfoEntity.toString());
             return studentInfoEntity.toString();
         }
     }

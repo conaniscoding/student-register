@@ -11,7 +11,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @Order(Ordered.HIGHEST_PRECEDENCE)
 @Configuration
 @EnableTransactionManagement(proxyTargetClass = true)
-@EnableJpaRepositories(basePackages = "com.conan.DAO.repository")
+@EnableJpaRepositories(basePackages = "com.conan.dao.repository")
 @EntityScan(basePackages = "com.conan.DAO.entity")
 public class JpaConfiguration {
     PersistenceExceptionTranslationPostProcessor persistenceExceptionTranslationPostProcessor(){

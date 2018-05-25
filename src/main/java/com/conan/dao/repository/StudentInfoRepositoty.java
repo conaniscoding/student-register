@@ -1,6 +1,6 @@
-package com.conan.DAO.repository;
+package com.conan.dao.repository;
 
-import com.conan.DAO.entity.StudentInfoEntity;
+import com.conan.dao.entity.StudentInfoEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

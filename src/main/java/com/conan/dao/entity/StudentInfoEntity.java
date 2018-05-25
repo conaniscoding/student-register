@@ -1,4 +1,4 @@
-package com.conan.DAO.entity;
+package com.conan.dao.entity;
 
 import javax.persistence.*;
 

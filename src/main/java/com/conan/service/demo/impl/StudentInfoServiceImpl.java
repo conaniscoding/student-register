@@ -1,7 +1,7 @@
 package com.conan.service.demo.impl;
 
-import com.conan.DAO.entity.StudentInfoEntity;
-import com.conan.DAO.repository.StudentInfoRepositoty;
+import com.conan.dao.entity.StudentInfoEntity;
+import com.conan.dao.repository.StudentInfoRepositoty;
 import com.conan.service.demo.IStudentInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
